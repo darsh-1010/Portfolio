@@ -287,7 +287,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "assets/SmallBiz_Inventory_System.png",
+    image: "src/assets/SmallBiz_Inventory_System.png",
     source_code_link: "https://github.com/darsh-1010/smallbiz_inventory_software",
   },
   {
