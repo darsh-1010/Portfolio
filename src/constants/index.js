@@ -37,6 +37,10 @@ import jarvisImage from '../assets/jarvis.png';
 // Fetched from fxis.ai (their site logo, white variant, pairs with a dark iconBg)
 import fxisLogo from '../assets/fxis-logo.svg';
 
+// Placeholder cover graphics (no real screenshots yet) for FXIS.ai projects
+import geoBrandTrackerImage from '../assets/geo-brand-tracker-cover.svg';
+import financeRagChatbotImage from '../assets/finance-rag-chatbot-cover.svg';
+
 export const navLinks = [
   {
     id: "about",
@@ -288,6 +292,59 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Geo Brand Tracker",
+    description:
+      "Tracks a brand's visibility and ranking inside AI answers instead of classic search results. Takes user-style prompts, drives Selenium against ChatGPT, Gemini, and Google AI Mode to submit them and scrape the generated responses, then analyzes where and how the brand is placed/ranked across those answers to produce a report.",
+    tags: [
+      {
+        name: "Selenium",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web Scraping",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GEO/AI Ranking",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: geoBrandTrackerImage,
+    // ponytail: no public repo/demo link given yet, pointing at the employer
+    // site for now — swap for a repo or case-study link when there is one.
+    source_code_link: "https://fxis.ai",
+  },
+  {
+    name: "Finance RAG Chatbot",
+    description:
+      "A finance Q&A chatbot combining retrieval-augmented generation with live market data. A Chromium-based scraper pulls financial content off the web into a vector database, which is combined with live share prices from yfinance to ground detailed answers. Adds prompt caching and data caching for speed/cost, multi-level security guardrails tiered by subscription plan, and daily/monthly token-usage limits per user.",
+    tags: [
+      {
+        name: "RAG",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vector DB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "yfinance",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Security Guardrails",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: financeRagChatbotImage,
+    // ponytail: same as above, placeholder link until a real one is shared.
+    source_code_link: "https://fxis.ai",
+  },
   {
     name: "Smallbiz Inventory Software",
     description:

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 720 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151030"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="candle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#915EFF"/>
+      <stop offset="100%" stop-color="#5b3aa0"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="460" fill="url(#bg2)"/>
+
+  <!-- candlestick chart motif -->
+  <g stroke="url(#candle)" stroke-width="4">
+    <line x1="440" y1="150" x2="440" y2="220"/>
+    <line x1="480" y1="130" x2="480" y2="260"/>
+    <line x1="520" y1="170" x2="520" y2="210"/>
+    <line x1="560" y1="110" x2="560" y2="240"/>
+    <line x1="600" y1="150" x2="600" y2="200"/>
+  </g>
+  <g fill="url(#candle)">
+    <rect x="428" y="165" width="24" height="35" rx="3"/>
+    <rect x="468" y="150" width="24" height="70" rx="3"/>
+    <rect x="508" y="180" width="24" height="20" rx="3"/>
+    <rect x="548" y="130" width="24" height="90" rx="3"/>
+    <rect x="588" y="160" width="24" height="45" rx="3"/>
+  </g>
+
+  <!-- chat bubble -->
+  <rect x="60" y="120" width="220" height="120" rx="20" fill="#1d1836" stroke="#915EFF" stroke-opacity="0.6" stroke-width="2"/>
+  <path d="M100 240 L100 275 L140 240 Z" fill="#1d1836" stroke="#915EFF" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="85" y="150" width="150" height="10" rx="5" fill="#aaa6c3"/>
+  <rect x="85" y="172" width="110" height="10" rx="5" fill="#aaa6c3"/>
+
+  <!-- shield (security guardrails) -->
+  <path d="M180 190 l22 -10 l22 10 v20 c0 16 -10 28 -22 34 c-12 -6 -22 -18 -22 -34 z" fill="#050816" stroke="#915EFF" stroke-width="2.5"/>
+  <path d="M192 210 l7 7 l14 -15" stroke="#915EFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="60" y="330" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Finance RAG Chatbot</text>
+  <text x="60" y="365" font-family="Arial, sans-serif" font-size="17" fill="#aaa6c3">Live prices + vector search, guardrailed &amp; rate-limited</text>
+</svg>
