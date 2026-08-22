@@ -1,0 +1,747 @@
+{
+  "package.json": {
+    "mtime": 1787415627.8,
+    "ast_hash": "3d2546236c7f60ba3fc34a67c48ef3b9",
+    "semantic_hash": ""
+  },
+  "postcss.config.cjs": {
+    "mtime": 1787415627.8,
+    "ast_hash": "2a34be26db534f2ad807ee41937f4579",
+    "semantic_hash": ""
+  },
+  "src/App.jsx": {
+    "mtime": 1787415628.07,
+    "ast_hash": "51c96f66f9232a97bef9a199c46a2d00",
+    "semantic_hash": ""
+  },
+  "src/assets/index.js": {
+    "mtime": 1787415628.16,
+    "ast_hash": "759e4829ef2a88d3eb11b99e7011653c",
+    "semantic_hash": ""
+  },
+  "src/components/AIChatbot.jsx": {
+    "mtime": 1787415628.28,
+    "ast_hash": "4212034def4129f415a2e0c995d00d2a",
+    "semantic_hash": ""
+  },
+  "src/components/About.jsx": {
+    "mtime": 1787415628.28,
+    "ast_hash": "b1374a3acafe59bd4ca496ab8a34ff6d",
+    "semantic_hash": ""
+  },
+  "src/components/Contact.jsx": {
+    "mtime": 1787415628.29,
+    "ast_hash": "96b3d5fbc1a582160fb6b47660250aa0",
+    "semantic_hash": ""
+  },
+  "src/components/Experience.jsx": {
+    "mtime": 1787415628.3,
+    "ast_hash": "a3c82b62804e0b6405658720d7738473",
+    "semantic_hash": ""
+  },
+  "src/components/Feedbacks.jsx": {
+    "mtime": 1787415628.3,
+    "ast_hash": "8968516bc6fc67599a56eae58c17e468",
+    "semantic_hash": ""
+  },
+  "src/components/Footer.jsx": {
+    "mtime": 1787415628.31,
+    "ast_hash": "4ac0b03957adbdb2dd373a6d626839ee",
+    "semantic_hash": ""
+  },
+  "src/components/Hero.jsx": {
+    "mtime": 1787415628.31,
+    "ast_hash": "df9c7bb1d5e24bf84d8ac703699755c5",
+    "semantic_hash": ""
+  },
+  "src/components/Loader.jsx": {
+    "mtime": 1787415628.32,
+    "ast_hash": "340af8ce4058493ea19fb93cd14e5c3a",
+    "semantic_hash": ""
+  },
+  "src/components/Navbar.jsx": {
+    "mtime": 1787415628.33,
+    "ast_hash": "73428370112aa7265ca0619b75548293",
+    "semantic_hash": ""
+  },
+  "src/components/Tech.jsx": {
+    "mtime": 1787415628.33,
+    "ast_hash": "2bbe73481a2c2827a04857bac8cb0f5f",
+    "semantic_hash": ""
+  },
+  "src/components/TechIcon.jsx": {
+    "mtime": 1787415628.34,
+    "ast_hash": "8b48f904f0d5014788b04ff6187320ad",
+    "semantic_hash": ""
+  },
+  "src/components/Works.jsx": {
+    "mtime": 1787415628.35,
+    "ast_hash": "cda420604ececf4b5774c33ef833c856",
+    "semantic_hash": ""
+  },
+  "src/components/canvas/Computers.jsx": {
+    "mtime": 1787415628.36,
+    "ast_hash": "f5de248b17440b50d235bbbc1cf8adb9",
+    "semantic_hash": ""
+  },
+  "src/components/canvas/Earth.jsx": {
+    "mtime": 1787415628.37,
+    "ast_hash": "52f10a6a8a8a9381f6db9060208ad109",
+    "semantic_hash": ""
+  },
+  "src/components/canvas/Stars.jsx": {
+    "mtime": 1787415628.38,
+    "ast_hash": "8ebc647119d70be72ed4de2693b46786",
+    "semantic_hash": ""
+  },
+  "src/components/canvas/index.js": {
+    "mtime": 1787415628.38,
+    "ast_hash": "55da13dc8ab686a2761b7cd7a8abe22a",
+    "semantic_hash": ""
+  },
+  "src/components/index.js": {
+    "mtime": 1787415628.39,
+    "ast_hash": "892b8ae4f0e2145d7074c7fc380d6680",
+    "semantic_hash": ""
+  },
+  "src/config/chatbot.js": {
+    "mtime": 1787415628.4,
+    "ast_hash": "4e088217d6aa5f0f14e0b24d0bdd6cb0",
+    "semantic_hash": ""
+  },
+  "src/constants/index.js": {
+    "mtime": 1787415628.41,
+    "ast_hash": "6983c84ae57b14b41cf08d1adf1b19c2",
+    "semantic_hash": ""
+  },
+  "src/hoc/SectionWrapper.jsx": {
+    "mtime": 1787415628.42,
+    "ast_hash": "dad63847829810e0a5d04de75db48162",
+    "semantic_hash": ""
+  },
+  "src/hoc/index.js": {
+    "mtime": 1787415628.43,
+    "ast_hash": "9c87def7b7eb2580c485537aa4747acf",
+    "semantic_hash": ""
+  },
+  "src/main.jsx": {
+    "mtime": 1787415628.44,
+    "ast_hash": "cd379008456fbf97c9365c8a733207c3",
+    "semantic_hash": ""
+  },
+  "src/styles.js": {
+    "mtime": 1787415628.44,
+    "ast_hash": "4f6214e02a30930c76dc47f43cfa1552",
+    "semantic_hash": ""
+  },
+  "src/utils/motion.js": {
+    "mtime": 1787415628.45,
+    "ast_hash": "be93544bff08bc52a4f7be69b9f592da",
+    "semantic_hash": ""
+  },
+  "tailwind.config.cjs": {
+    "mtime": 1787415628.45,
+    "ast_hash": "35c695832af5c3079f6394b0c2775572",
+    "semantic_hash": ""
+  },
+  "vercel.json": {
+    "mtime": 1787415628.46,
+    "ast_hash": "e63c2d486b6bf3115b0801a695b97ebf",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1787415628.46,
+    "ast_hash": "ac605e4b540846227ec125e13f24f3e2",
+    "semantic_hash": ""
+  },
+  ".github/workflows/deploy.yml": {
+    "mtime": 1787415627.79,
+    "ast_hash": "bd675416bfb62af8d1520539c3d62528",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1787415965.57,
+    "ast_hash": "b681fb7f8779eb5bf0dc68b27f893ad7",
+    "semantic_hash": ""
+  },
+  "AI_CHATBOT_README.md": {
+    "mtime": 1787415627.8,
+    "ast_hash": "5153263843404c637e8ef4516e297e28",
+    "semantic_hash": ""
+  },
+  "DEPLOYMENT_GUIDE.md": {
+    "mtime": 1787415627.8,
+    "ast_hash": "92f7aba089cbe47bed0ba93e2eb3765c",
+    "semantic_hash": ""
+  },
+  "GROQ_SETUP_GUIDE.md": {
+    "mtime": 1787415627.8,
+    "ast_hash": "a56730f9179cbdc7850a32772184136f",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1787415627.8,
+    "ast_hash": "89a4c9355b9649d671823037e96fb82b",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1787415627.8,
+    "ast_hash": "e6b3c6420d6ca053b93d96514dc407e8",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/license.txt": {
+    "mtime": 1787415627.81,
+    "ast_hash": "ed537a4eacc4832147b3fc3086cd0207",
+    "semantic_hash": ""
+  },
+  "public/planet/license.txt": {
+    "mtime": 1787415628.04,
+    "ast_hash": "d8b05a4765e25f1adae22398d3ebc543",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/convert.html": {
+    "mtime": 1787415628.19,
+    "ast_hash": "922837ea65669e2692f1d0504876ac2b",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.002_baseColor.png": {
+    "mtime": 1787415627.85,
+    "ast_hash": "35e25d59126d8762bdab0a2d6d05c647",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.023_baseColor.jpeg": {
+    "mtime": 1787415627.85,
+    "ast_hash": "dbc97bc78cce3f7056d162f3c04602e3",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.024_baseColor.jpeg": {
+    "mtime": 1787415627.85,
+    "ast_hash": "ca9a2f465268eb9d4c5cb2bcebb8f543",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_0_baseColor.png": {
+    "mtime": 1787415627.85,
+    "ast_hash": "fdb7ef987402608dbc54f44b619b281c",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_10_baseColor.jpeg": {
+    "mtime": 1787415627.85,
+    "ast_hash": "548382129f9e24d003c94b9d1ff03d07",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_11_baseColor.png": {
+    "mtime": 1787415627.86,
+    "ast_hash": "fe9af7cf6acea473368d4fb62afd67d0",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_12_baseColor.jpeg": {
+    "mtime": 1787415627.86,
+    "ast_hash": "91a62bc77f92b7d4542861d1d4c7fbb9",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_13_baseColor.png": {
+    "mtime": 1787415627.86,
+    "ast_hash": "343d72da2041ff61c57498ef8f691342",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_14_baseColor.png": {
+    "mtime": 1787415627.86,
+    "ast_hash": "8e822ebe111e9b682db992e90a3dd421",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_15_baseColor.png": {
+    "mtime": 1787415627.87,
+    "ast_hash": "6bc1cb84fed2ebea1e20726c333829cb",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_16_baseColor.png": {
+    "mtime": 1787415627.87,
+    "ast_hash": "d2ffd8d27466db9a830334168f0933f2",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_17_baseColor.png": {
+    "mtime": 1787415627.88,
+    "ast_hash": "5c9f88375cf0d9e4789e6c6b1a60734f",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_18_baseColor.png": {
+    "mtime": 1787415627.88,
+    "ast_hash": "c8149f06706a927afb48b65d3a2fe119",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_18_emissive.png": {
+    "mtime": 1787415627.88,
+    "ast_hash": "3b4374c710e54dc8534150fcf6ae7873",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_19_baseColor.png": {
+    "mtime": 1787415627.89,
+    "ast_hash": "e9070b535a2e0c3012e63398dc554798",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_1_baseColor.jpeg": {
+    "mtime": 1787415627.89,
+    "ast_hash": "2fa68839191b9359a1767ab20b52f1bb",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_20_baseColor.png": {
+    "mtime": 1787415627.89,
+    "ast_hash": "064b878ad81554b8e07a5d5fc6c2cc67",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_21_baseColor.png": {
+    "mtime": 1787415627.89,
+    "ast_hash": "3f76f6f055adc052cc1805adea9085bd",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_22_baseColor.png": {
+    "mtime": 1787415627.9,
+    "ast_hash": "316d2a9d05ec56c9fc8563c9b078e686",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_23_baseColor.png": {
+    "mtime": 1787415627.9,
+    "ast_hash": "0c247143b91640b400714072e9157c0f",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_24_baseColor.png": {
+    "mtime": 1787415627.9,
+    "ast_hash": "5baf1a6d1c3125fbb07037aab3e2eb68",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_24_emissive.png": {
+    "mtime": 1787415627.91,
+    "ast_hash": "8380d7402e2ecfb8442b42a9b20c16b8",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_25_baseColor.jpeg": {
+    "mtime": 1787415627.92,
+    "ast_hash": "dfe2895e1d12f30f7d9554ba147a3eae",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_26_baseColor.png": {
+    "mtime": 1787415627.92,
+    "ast_hash": "f153ab4eca07bceeaa1088c0dc0c652a",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_27_baseColor.png": {
+    "mtime": 1787415627.93,
+    "ast_hash": "f0034cbcfdda3dc405de4f7fe271b2c6",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_27_emissive.png": {
+    "mtime": 1787415627.93,
+    "ast_hash": "78dbd71aa070e0ca86ee9a8d15b1143a",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_28_baseColor.png": {
+    "mtime": 1787415627.93,
+    "ast_hash": "ccaedc0a4eba6b67fe3ab83302bc1417",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_29_baseColor.png": {
+    "mtime": 1787415627.93,
+    "ast_hash": "018d596a220604a594cd0fd69f7e87f1",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_2_baseColor.jpeg": {
+    "mtime": 1787415627.94,
+    "ast_hash": "059ab594475b338f9d5bad37c548074d",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_30_baseColor.png": {
+    "mtime": 1787415627.95,
+    "ast_hash": "8c49cb47ddd0888be15617c9e6c990c5",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_31_baseColor.png": {
+    "mtime": 1787415627.96,
+    "ast_hash": "09331dfefd9056ca78e57b8a33c6cc4e",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_32_baseColor.jpeg": {
+    "mtime": 1787415627.96,
+    "ast_hash": "7e75c0e35c6915ef3ff069c0698f8b4b",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_33_baseColor.png": {
+    "mtime": 1787415627.97,
+    "ast_hash": "dc4464ab39ad4be689fd135e84cd071c",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_34_baseColor.jpeg": {
+    "mtime": 1787415627.97,
+    "ast_hash": "d4220ce14c37a9a67d06fab4932dab79",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_35_baseColor.png": {
+    "mtime": 1787415627.97,
+    "ast_hash": "5a951d0aad494a0584516a4926eb9451",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_36_baseColor.jpeg": {
+    "mtime": 1787415627.98,
+    "ast_hash": "5f0e4b3ca11fe7301f5fedae83c14cb6",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_39_baseColor.jpeg": {
+    "mtime": 1787415627.98,
+    "ast_hash": "144f2ccb46548f1a8c180df24f4acdc4",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_3_baseColor.png": {
+    "mtime": 1787415627.98,
+    "ast_hash": "164ae623a0796a8b4c1c629d925e6576",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_40_baseColor.png": {
+    "mtime": 1787415627.98,
+    "ast_hash": "85fa9a240ae54d6b61b4b5140e7a5c7d",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_4_baseColor.png": {
+    "mtime": 1787415627.99,
+    "ast_hash": "1f60e118c24afa38a7a5324661cf9b1b",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_4_emissive.png": {
+    "mtime": 1787415627.99,
+    "ast_hash": "b35299d3e99267154505735d894ed51e",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_5_baseColor.png": {
+    "mtime": 1787415627.99,
+    "ast_hash": "7ca558555f7122727ed06e962e6b3bda",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_6_baseColor.png": {
+    "mtime": 1787415627.99,
+    "ast_hash": "4e066d93f54588fe724587fed0e20f95",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_7_baseColor.png": {
+    "mtime": 1787415628.0,
+    "ast_hash": "8846216e98f2c57de8c6bb33fc38a5ba",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_8_baseColor.png": {
+    "mtime": 1787415628.0,
+    "ast_hash": "92ed78d0989371c66b6451ea81f92870",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_9_baseColor.png": {
+    "mtime": 1787415628.0,
+    "ast_hash": "d0faa9c1663c816a1697721241e1009d",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_9_emissive.png": {
+    "mtime": 1787415628.0,
+    "ast_hash": "cbc546984ead36d7c006e1c607980ef4",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material.074_baseColor.png": {
+    "mtime": 1787415628.01,
+    "ast_hash": "ff9fe4dfcc6d544165602e0eb2c6fda5",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material_baseColor.jpeg": {
+    "mtime": 1787415628.02,
+    "ast_hash": "fd6f9bce75d3515756debcb5ca12a898",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Material_metallicRoughness.png": {
+    "mtime": 1787415628.03,
+    "ast_hash": "82a688151ea06c3ede3706efa564ae47",
+    "semantic_hash": ""
+  },
+  "public/desktop_pc/textures/Tasten_2_baseColor.jpeg": {
+    "mtime": 1787415628.03,
+    "ast_hash": "cc4c89c56df059f0de2e70540fc8077f",
+    "semantic_hash": ""
+  },
+  "public/planet/textures/Clouds_baseColor.png": {
+    "mtime": 1787415628.06,
+    "ast_hash": "75d3ca1128995c4434dcc76a4098c99f",
+    "semantic_hash": ""
+  },
+  "public/planet/textures/Planet_baseColor.png": {
+    "mtime": 1787415628.06,
+    "ast_hash": "1821eed6565b52b7a4e84320ada536bf",
+    "semantic_hash": ""
+  },
+  "src/assets/DSA_solver.png": {
+    "mtime": 1787415628.08,
+    "ast_hash": "7ffb0506afa0c839f9980ccae63d375c",
+    "semantic_hash": ""
+  },
+  "src/assets/NLP.png": {
+    "mtime": 1787415628.08,
+    "ast_hash": "c64f3092ea4157296a39fad08ff9861e",
+    "semantic_hash": ""
+  },
+  "src/assets/OpenCV.png": {
+    "mtime": 1787415628.09,
+    "ast_hash": "7cef4e06269263b08a7f74c9ec62be7c",
+    "semantic_hash": ""
+  },
+  "src/assets/Shayona IT Services logo.jpeg": {
+    "mtime": 1787415628.09,
+    "ast_hash": "698cfb454a7825dbf78d49969569560b",
+    "semantic_hash": ""
+  },
+  "src/assets/SmallBiz_Inventory_System.png": {
+    "mtime": 1787415628.1,
+    "ast_hash": "def7d0681b387a958e535241799bd79b",
+    "semantic_hash": ""
+  },
+  "src/assets/Tars Ken.webp": {
+    "mtime": 1787415628.1,
+    "ast_hash": "65d6f7538deb4f1080b855362b3e65a4",
+    "semantic_hash": ""
+  },
+  "src/assets/ai-symbol.png": {
+    "mtime": 1787415628.1,
+    "ast_hash": "c99a177d797892904203ef605504d2a9",
+    "semantic_hash": ""
+  },
+  "src/assets/augmentedlogo.png": {
+    "mtime": 1787415628.11,
+    "ast_hash": "cc2ccd14010d7e0e18feba1ae7bd2c25",
+    "semantic_hash": ""
+  },
+  "src/assets/backend.png": {
+    "mtime": 1787415628.11,
+    "ast_hash": "b6f97a0bb77c12636d32a57efacd1d10",
+    "semantic_hash": ""
+  },
+  "src/assets/carrent.png": {
+    "mtime": 1787415628.12,
+    "ast_hash": "de7775e7e769abcd0478a0f32554addf",
+    "semantic_hash": ""
+  },
+  "src/assets/close.svg": {
+    "mtime": 1787415628.12,
+    "ast_hash": "9b36bd2df0ca276246c85a1f5bbfc2ed",
+    "semantic_hash": ""
+  },
+  "src/assets/company/meta.png": {
+    "mtime": 1787415628.13,
+    "ast_hash": "c39c206e11ef45ddc19167e6c167e1d8",
+    "semantic_hash": ""
+  },
+  "src/assets/company/shopify.png": {
+    "mtime": 1787415628.14,
+    "ast_hash": "7d0c465185ea1aa651737aedf2e889f9",
+    "semantic_hash": ""
+  },
+  "src/assets/company/starbucks.png": {
+    "mtime": 1787415628.14,
+    "ast_hash": "739125c98702ba3575a572618abc82f6",
+    "semantic_hash": ""
+  },
+  "src/assets/company/tekisky.png": {
+    "mtime": 1787415628.14,
+    "ast_hash": "f20f265a42f88c91629aa4f530b9eac4",
+    "semantic_hash": ""
+  },
+  "src/assets/company/tesla.png": {
+    "mtime": 1787415628.14,
+    "ast_hash": "00f12a1675ac2554f83449c254abfc66",
+    "semantic_hash": ""
+  },
+  "src/assets/creator.png": {
+    "mtime": 1787415628.15,
+    "ast_hash": "2fb53dc768e9f2b21e8eba0b31c50f1d",
+    "semantic_hash": ""
+  },
+  "src/assets/gearXpert.png": {
+    "mtime": 1787415628.15,
+    "ast_hash": "559700ec8eb74b63f56b693d4746644d",
+    "semantic_hash": ""
+  },
+  "src/assets/github.png": {
+    "mtime": 1787415628.15,
+    "ast_hash": "69b7e397e348747e802b90e5eb0bfbd4",
+    "semantic_hash": ""
+  },
+  "src/assets/herobg.png": {
+    "mtime": 1787415628.16,
+    "ast_hash": "1b683fb352076997a7b1f0973ceedd4e",
+    "semantic_hash": ""
+  },
+  "src/assets/image.webp": {
+    "mtime": 1787415628.16,
+    "ast_hash": "d5b70378c320a5e3b871329d1645a843",
+    "semantic_hash": ""
+  },
+  "src/assets/jarvis.png": {
+    "mtime": 1787415628.17,
+    "ast_hash": "5460f63d4546bbeb8d91f1c268a78273",
+    "semantic_hash": ""
+  },
+  "src/assets/logo.png": {
+    "mtime": 1787415628.17,
+    "ast_hash": "ddc01a3918c84af4a25bc1dda6e57073",
+    "semantic_hash": ""
+  },
+  "src/assets/menu.svg": {
+    "mtime": 1787415628.17,
+    "ast_hash": "b2443b79da2a63c56c83748beb22739a",
+    "semantic_hash": ""
+  },
+  "src/assets/ml.png": {
+    "mtime": 1787415628.18,
+    "ast_hash": "2d5a27c505933e3bed998cc2a3f5f0f9",
+    "semantic_hash": ""
+  },
+  "src/assets/mobile.png": {
+    "mtime": 1787415628.18,
+    "ast_hash": "9537758db1d756949a924fcd4404895f",
+    "semantic_hash": ""
+  },
+  "src/assets/religglobal.png": {
+    "mtime": 1787415628.18,
+    "ast_hash": "b54d89348de8e08e3a5db9f94d73bd55",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/aws.png": {
+    "mtime": 1787415628.19,
+    "ast_hash": "b587c50d1d471cfdeb4dd93569c5c8c0",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/css.png": {
+    "mtime": 1787415628.19,
+    "ast_hash": "562320553594c7fc047b9d0cf55233ab",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/docker.png": {
+    "mtime": 1787415628.2,
+    "ast_hash": "48daa53dc2e75aa18777f55eb610c4f1",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/express.png": {
+    "mtime": 1787415628.2,
+    "ast_hash": "536db096002c8c9c12dcc7b895501da7",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/figma.png": {
+    "mtime": 1787415628.2,
+    "ast_hash": "897539713a3105b6ee3b797851459130",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/framer.png": {
+    "mtime": 1787415628.2,
+    "ast_hash": "f1a38f097c043343999112c60384c2c4",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/git.png": {
+    "mtime": 1787415628.21,
+    "ast_hash": "91e38c1fb4b2410c06d56542d09086d0",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/gsap.png": {
+    "mtime": 1787415628.21,
+    "ast_hash": "61ab84faa38869424228b0222da24aed",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/html.png": {
+    "mtime": 1787415628.21,
+    "ast_hash": "ff5aca29bd447b791c743ad0075e5aa3",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/javascript.png": {
+    "mtime": 1787415628.22,
+    "ast_hash": "c1f39577de277de6ff5f654e996f1028",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/mongodb.png": {
+    "mtime": 1787415628.22,
+    "ast_hash": "1fb83876d8f00b2f67374b05838d09d2",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/mui.png": {
+    "mtime": 1787415628.22,
+    "ast_hash": "ae988748ef23e4d83d773a1b91cbc091",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/mysql.png": {
+    "mtime": 1787415628.23,
+    "ast_hash": "07c28adf28e0592b46094aef81fcc655",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/nodejs.png": {
+    "mtime": 1787415628.23,
+    "ast_hash": "9e79e8c3cdcccfc06c9840883f15b2c1",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/opencv.svg": {
+    "mtime": 1787415628.23,
+    "ast_hash": "eb4aae9d57352d97fd603fbd2d532188",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/postgresql.png": {
+    "mtime": 1787415628.23,
+    "ast_hash": "ea92d6580dda0fbcf61a8ccb16e0d02a",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/python.png": {
+    "mtime": 1787415628.24,
+    "ast_hash": "c985cf9c5289ae7ce36aaa28edbee9bf",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/python.svg": {
+    "mtime": 1787415628.24,
+    "ast_hash": "884687c4080edbb046c21164e3376efd",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/pytorch.svg": {
+    "mtime": 1787415628.24,
+    "ast_hash": "a8b3b5a7ea1f89de313d8130d2f0b546",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/reactjs.png": {
+    "mtime": 1787415628.24,
+    "ast_hash": "f70556624353bdc24ec1e69a2d979630",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/redux.png": {
+    "mtime": 1787415628.25,
+    "ast_hash": "31f3e54c7d49efed1b6a03edc4476ba2",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/selenium.svg": {
+    "mtime": 1787415628.25,
+    "ast_hash": "517503a0bbd4ef019597454ebbee3fa7",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/tailwind.png": {
+    "mtime": 1787415628.25,
+    "ast_hash": "c73f9afce409c73a75bb36ce9da84a94",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/tensorflow.svg": {
+    "mtime": 1787415628.26,
+    "ast_hash": "57508efe7b5d5e6d81c293353005ebc3",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/threejs.svg": {
+    "mtime": 1787415628.26,
+    "ast_hash": "d3af788e91699eac478e9e31d8cefc31",
+    "semantic_hash": ""
+  },
+  "src/assets/tech/typescript.png": {
+    "mtime": 1787415628.26,
+    "ast_hash": "6a41ab01fd39f8bae6bad97ef7109cf9",
+    "semantic_hash": ""
+  },
+  "src/assets/third testimonial.webp": {
+    "mtime": 1787415628.26,
+    "ast_hash": "a20310ce5483f7ec404de3c1341b3fb1",
+    "semantic_hash": ""
+  },
+  "src/assets/web.png": {
+    "mtime": 1787415628.27,
+    "ast_hash": "f59df0f5b55cde9fc8e02c3dfe1e3540",
+    "semantic_hash": ""
+  }
+}
