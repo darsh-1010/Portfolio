@@ -1,5 +1,9 @@
 name: Deploy to Vercel
 
+env:
+  VERCEL_ORG_ID: ${{ secrets.ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.PROJECT_ID }}
+
 on:
   push:
     branches: [ main, master ]
@@ -7,49 +11,37 @@ on:
     branches: [ main, master ]
 
 jobs:
+  # Validates every PR builds; does not deploy (no Vercel secrets needed here).
   build:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
-    
-    - name: Install dependencies
-      run: npm ci
-    
-    - name: Build project
-      run: npm run build
-    
-    - name: Upload build artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: build-files
-        path: dist/
+    - run: npm ci
+    - run: npm run build
 
+  # Deploys on push to main/master using the official Vercel CLI flow.
+  # amondnet/vercel-action is retired and bundles an old CLI that Vercel's
+  # backend now rejects ("CLI version outdated, requires >=47.2.2"), so we
+  # drive `vercel` directly instead of depending on that action being updated.
   deploy:
-    needs: build
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
-    
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
-    - name: Download build artifacts
-      uses: actions/download-artifact@v4
-      with:
-        name: build-files
-        path: dist/
-    
-    - name: Deploy to Vercel
-      uses: amondnet/vercel-action@v25
-      with:
-        vercel-token: ${{ secrets.VERCEL_TOKEN }}
-        vercel-org-id: ${{ secrets.ORG_ID }}
-        vercel-project-id: ${{ secrets.PROJECT_ID }}
-        working-directory: ./
-        vercel-args: '--prod'
+    - name: Install Vercel CLI
+      run: npm install --global vercel@latest
+
+    - name: Pull Vercel environment info
+      run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
+    - name: Build via Vercel (reads vercel.json's buildCommand/outputDirectory)
+      run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+    - name: Deploy prebuilt output to Vercel
+      run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}

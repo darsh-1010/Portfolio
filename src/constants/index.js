@@ -215,11 +215,24 @@ const technologies = [
 
 const experiences = [
   {
+    // ponytail: no FXIS.ai logo asset yet, reusing aiSymbol as a placeholder
+    // icon so the build doesn't break. Swap for the real logo when available.
+    title: "AI Engineer",
+    company_name: "FXIS.ai",
+    icon: aiSymbol,
+    iconBg: "#151030",
+    date: "Aug 2025 - Present",
+    points: [
+      "Building a Geo Brand Tracker to monitor brand visibility and sentiment across locations.",
+      "Building a finance-based RAG chatbot with security guardrails for safe, grounded financial Q&A.",
+    ],
+  },
+  {
     title: "AI/ML Developer",
     company_name: "ReligGlobal",
     icon: religglobal,
     iconBg: "#383E56",
-    date: "Mar 2025 - Present",
+    date: "Mar 2025 - Aug 2025",
     points: [
       "Reduced candidate screening time by 40% by deploying GenAI LLM-based resume-job match system to address recruiter inefficiencies in shortlisting; implemented using OpenAI APIs and Python.",
       "Generated optimized Dream11 fantasy squads by developing an XGBoost and RL-based prediction engine that selects winning player combinations based on historical stats, matchups, pitch conditions, and recent form trends.",
