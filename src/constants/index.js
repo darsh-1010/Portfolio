@@ -34,6 +34,9 @@ import smallbizImage from '../assets/SmallBiz_Inventory_System.png';
 import dsaSolverImage from '../assets/DSA_solver.png';
 import jarvisImage from '../assets/jarvis.png';
 
+// Fetched from fxis.ai (their site logo, white variant, pairs with a dark iconBg)
+import fxisLogo from '../assets/fxis-logo.svg';
+
 export const navLinks = [
   {
     id: "about",
@@ -215,11 +218,9 @@ const technologies = [
 
 const experiences = [
   {
-    // ponytail: no FXIS.ai logo asset yet, reusing aiSymbol as a placeholder
-    // icon so the build doesn't break. Swap for the real logo when available.
     title: "AI Engineer",
     company_name: "FXIS.ai",
-    icon: aiSymbol,
+    icon: fxisLogo,
     iconBg: "#151030",
     date: "Aug 2025 - Present",
     points: [
