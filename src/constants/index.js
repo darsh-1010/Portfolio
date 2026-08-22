@@ -42,6 +42,10 @@ import geoBrandTrackerImage from '../assets/geo-brand-tracker-cover.svg';
 import financeRagChatbotImage from '../assets/finance-rag-chatbot-cover.svg';
 import seoBlogGeneratorImage from '../assets/seo-blog-generator-cover.svg';
 
+// Tools & IDEs not in devicon - fetched from their official sites
+import claudeCodeIcon from '../assets/tech/claude-code.png';
+import antigravityIcon from '../assets/tech/antigravity.png';
+
 export const navLinks = [
   {
     id: "about",
@@ -78,11 +82,6 @@ const services = [
 
 const technologies = [
   // Backend & Languages
-  {
-    name: "JavaScript",
-    iconClass: "devicon-javascript-plain colored",
-    websiteUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
   {
     name: "Python",
     iconClass: "devicon-python-plain colored",
@@ -121,11 +120,6 @@ const technologies = [
     websiteUrl: "https://scikit-learn.org/",
   },
   {
-    name: "Keras",
-    iconClass: "devicon-keras-plain colored",
-    websiteUrl: "https://keras.io/",
-  },
-  {
     name: "LangChain",
     iconClass: "devicon-python-plain colored",
     customIcon: "https://cdn-icons-png.flaticon.com/128/1017/1017466.png",
@@ -143,11 +137,6 @@ const technologies = [
     name: "MySQL",
     iconClass: "devicon-mysql-plain colored",
     websiteUrl: "https://www.mysql.com/",
-  },
-  {
-    name: "MongoDB",
-    iconClass: "devicon-mongodb-plain colored",
-    websiteUrl: "https://www.mongodb.com/",
   },
   {
     name: "SQL",
@@ -174,14 +163,19 @@ const technologies = [
     websiteUrl: "https://www.jetbrains.com/pycharm/",
   },
   {
-    name: "Spyder",
-    iconClass: "devicon-python-plain colored",
-    websiteUrl: "https://www.spyder-ide.org/",
-  },
-  {
     name: "Google Colab",
     iconClass: "devicon-google-plain colored",
     websiteUrl: "https://colab.research.google.com/",
+  },
+  {
+    name: "Claude Code",
+    customIcon: claudeCodeIcon,
+    websiteUrl: "https://claude.com/claude-code",
+  },
+  {
+    name: "Antigravity",
+    customIcon: antigravityIcon,
+    websiteUrl: "https://antigravity.google/",
   },
   {
     name: "Git",
@@ -192,6 +186,11 @@ const technologies = [
     name: "GitHub",
     iconClass: "devicon-github-original",
     websiteUrl: "https://github.com/",
+  },
+  {
+    name: "GitLab",
+    iconClass: "devicon-gitlab-plain colored",
+    websiteUrl: "https://gitlab.com/",
   },
   
   // Automation & Testing
