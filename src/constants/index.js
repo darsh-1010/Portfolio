@@ -40,6 +40,7 @@ import fxisLogo from '../assets/fxis-logo.svg';
 // Placeholder cover graphics (no real screenshots yet) for FXIS.ai projects
 import geoBrandTrackerImage from '../assets/geo-brand-tracker-cover.svg';
 import financeRagChatbotImage from '../assets/finance-rag-chatbot-cover.svg';
+import seoBlogGeneratorImage from '../assets/seo-blog-generator-cover.svg';
 
 export const navLinks = [
   {
@@ -228,8 +229,9 @@ const experiences = [
     iconBg: "#151030",
     date: "Aug 2025 - Present",
     points: [
-      "Building a Geo Brand Tracker to monitor brand visibility and sentiment across locations.",
-      "Building a finance-based RAG chatbot with security guardrails for safe, grounded financial Q&A.",
+      "Built a Geo Brand Tracker that uses Selenium to submit prompts to ChatGPT, Gemini, and Google AI Mode and scrape the responses, automating brand-ranking checks across 3 AI platforms and auto-generating the visibility report.",
+      "Built a finance RAG chatbot combining a Chromium-scraped vector database with live yfinance pricing; added prompt and data caching that cut repeat LLM calls by roughly 30%, plus 3-tier security guardrails and per-user daily/monthly token quotas gated by subscription plan.",
+      "Built an AI-powered SEO blog generator that drafts against a self-defined checklist of ~20 on-page SEO parameters (keyword density, meta tags, heading structure, readability, internal linking), auto-revising each draft until every parameter is satisfied before publish.",
     ],
   },
   {
@@ -342,6 +344,28 @@ const projects = [
       },
     ],
     image: financeRagChatbotImage,
+    // ponytail: same as above, placeholder link until a real one is shared.
+    source_code_link: "https://fxis.ai",
+  },
+  {
+    name: "AI SEO Blog Generator",
+    description:
+      "Generates SEO-optimized blog posts against a self-defined checklist of on-page ranking parameters — keyword density and placement, meta title/description length, heading structure, readability, and internal linking — then scores each draft against the checklist and auto-revises it until every parameter is satisfied.",
+    tags: [
+      {
+        name: "GenAI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SEO",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Content Automation",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: seoBlogGeneratorImage,
     // ponytail: same as above, placeholder link until a real one is shared.
     source_code_link: "https://fxis.ai",
   },
