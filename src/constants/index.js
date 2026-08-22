@@ -29,6 +29,11 @@ import nlpIcon from '../assets/NLP.png';
 import opencvIcon from '../assets/OpenCV.png';
 import mlIcon from '../assets/ml.png';
 
+// Import project cover images (must be imports, not string paths, so Vite bundles them)
+import smallbizImage from '../assets/SmallBiz_Inventory_System.png';
+import dsaSolverImage from '../assets/DSA_solver.png';
+import jarvisImage from '../assets/jarvis.png';
+
 export const navLinks = [
   {
     id: "about",
@@ -287,7 +292,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/ assets/SmallBiz_Inventory_System.png ",
+    image: smallbizImage,
     source_code_link: "https://github.com/darsh-1010/smallbiz_inventory_software",
   },
   {
@@ -308,7 +313,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/DSA_solver.png",
+    image: dsaSolverImage,
     source_code_link: "https://github.com/darsh-1010/algo-master-pro",
   },
   {
@@ -329,7 +334,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/jarvis.png",
+    image: jarvisImage,
     source_code_link: "https://github.com/darsh-1010/Jarvis-A-Voice-Based-Assistant-Powered-by-LLaMA",
   },
 ];
