@@ -45,6 +45,7 @@ import seoBlogGeneratorImage from '../assets/seo-blog-generator-cover.svg';
 // Tools & IDEs not in devicon - fetched from their official sites
 import claudeCodeIcon from '../assets/tech/claude-code.png';
 import antigravityIcon from '../assets/tech/antigravity.png';
+import opencvLogo from '../assets/tech/opencv-logo.svg';
 
 export const navLinks = [
   {
@@ -128,7 +129,9 @@ const technologies = [
   {
     name: "OpenCV",
     iconClass: "devicon-python-plain colored",
-    customIcon: "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg",
+    // ponytail: was hotlinked from Wikimedia (flagged by Lighthouse for a
+    // third-party cookie); hosted locally like every other icon here now.
+    customIcon: opencvLogo,
     websiteUrl: "https://opencv.org/",
   },
   
