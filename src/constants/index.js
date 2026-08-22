@@ -30,7 +30,7 @@ import opencvIcon from '../assets/OpenCV.png';
 import mlIcon from '../assets/ml.png';
 
 // Import project cover images (must be imports, not string paths, so Vite bundles them)
-import smallbizImage from '../assets/SmallBiz_Inventory_System.png';
+import finsightImage from '../assets/finsight-dashboard.png';
 import dsaSolverImage from '../assets/DSA_solver.png';
 import jarvisImage from '../assets/jarvis.png';
 
@@ -369,25 +369,29 @@ const projects = [
     source_code_link: "https://fxis.ai",
   },
   {
-    name: "Smallbiz Inventory Software",
+    name: "FinSight",
     description:
-      "A modern, professional web application for small businesses to manage inventory, generate quotations with AI, track sales, and reports, automate client follow-ups. Built with Streamlit, this solution streamlines business operations with an intuitive interface, automated email/PDF workflows, and real-time analytics.",
+      "An AI-powered financial concierge and investment intelligence platform: a React/TypeScript frontend, a FastAPI backend (auth, billing via Stripe, chat proxy), and a separate FastAPI ML/RAG service backed by a Weaviate vector database and web scrapers. Runs on FreeLLMAPI as the primary LLM provider with automatic fallback to OpenAI for uptime, and ships a 4-tier subscription architecture (Starter, Growth, Premium, Enterprise) with its own token refill/cap rules per tier.",
     tags: [
       {
-        name: "Streamlit",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "AI",
+        name: "FastAPI",
         color: "green-text-gradient",
       },
       {
-        name: "Python",
+        name: "RAG / Weaviate",
         color: "pink-text-gradient",
       },
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
     ],
-    image: smallbizImage,
-    source_code_link: "https://github.com/darsh-1010/smallbiz_inventory_software",
+    image: finsightImage,
+    source_code_link: "https://github.com/darsh-1010/finsight",
   },
   {
     name: "DSA Solver",
