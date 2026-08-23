@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa6";
+import { SiKaggle } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -13,6 +14,14 @@ const Footer = () => {
       </a>
       <a href="https://github.com/darsh-1010" target="_blank" rel="noopener noreferrer">
         <FaGithub size={24} />
+      </a>
+      <a
+        href="https://www.kaggle.com/darshshah1010"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="5 public datasets: Nifty50 markets & IPL data"
+      >
+        <SiKaggle size={24} />
       </a>
     </footer>
   );
